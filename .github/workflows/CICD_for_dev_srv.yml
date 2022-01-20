@@ -17,8 +17,8 @@ jobs:
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            sudo chmod -R 755 /var/www/html
-            sudo chown -R ubuntu:ubuntu /var/www/html
+            sudo chmod -R 755 /var/www/html/cicdtesting
+            sudo chown -R ubuntu:ubuntu /var/www/html/cicdtesting
             
       - uses: actions/checkout@v2
       - name: Deploy source-code
@@ -30,7 +30,7 @@ jobs:
           KEY: ${{ secrets.KEY }}
         with:
           source: "*"
-          target: "/var/www/html"
+          target: "/var/www/html/cicdtesting"
 
       - name: Reset Permissions after deployment
         uses: appleboy/ssh-action@master
@@ -40,5 +40,5 @@ jobs:
           key: ${{ secrets.KEY }}
           port: 22
           script: |
-            sudo chmod -R 755 /var/www/html
-            sudo chown -R www-data:www-data /var/www/html
+            sudo chmod -R 755 /var/www/html/cicdtesting
+            sudo chown -R www-data:www-data /var/www/html/cicdtesting
