@@ -22,8 +22,8 @@ jobs:
             sudo chmod -R 777 /var/www/html/cicdtesting
             sudo chown -R nyaine.chan.myint:nyaine.chan.myint /var/www/html/cicdtesting
 =======
-            sudo chmod -R 775 /var/www/html/cicdtesting
-            sudo chown -R root:root /var/www/html/cicdtesting
+            #sudo chmod -R 775 /var/www/html/cicdtesting
+            #sudo chown -R root:root /var/www/html/cicdtesting
 >>>>>>> c7c21dd078565c38d7565b90ee8f49401acba87d
             
       - uses: actions/checkout@v2
