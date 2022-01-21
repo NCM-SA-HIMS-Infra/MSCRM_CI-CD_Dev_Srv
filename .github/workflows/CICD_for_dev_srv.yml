@@ -18,8 +18,6 @@ jobs:
           #passphrase:  ${{ secrets.PASSPHRASE }}
           port: ${{ secrets.PORT }}
           script: |
-                  #sudo chmod -R 777 /var/www/html/cicdtesting
-                  #sudo chown -R nyaine.chan.myint:nyaine.chan.myint /var/www/html/cicdtesting
                   sudo chmod -R 777 /var/www/html/mscrmtesting_ncm
                   sudo chown -R nyaine.chan.myint:nyaine.chan.myint /var/www/html/mscrmtesting_ncm
             
@@ -45,7 +43,5 @@ jobs:
           #passphrase:  ${{ secrets.PASSPHRASE }}
           port: 22
           script: |
-                  #sudo chmod -R 755 /var/www/html/cicdtesting
-                  #sudo chown -R apache:apache /var/www/html/cicdtesting
                   sudo chmod -R 755 /var/www/html/mscrmtesting_ncm
                   sudo chown -R apache:apache /var/www/html/mscrmtesting_ncm
