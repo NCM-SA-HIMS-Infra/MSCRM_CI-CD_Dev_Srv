@@ -32,7 +32,7 @@ jobs:
           #passphrase:  ${{ secrets.PASSPHRASE }}
         with:
           source: "*"
-          target: "/var/www/html/cicdtesting"
+          target: "/var/www/html/mscrmtesting_ncm"
 
       - name: Reset Permissions after deployment
         uses: appleboy/ssh-action@master
