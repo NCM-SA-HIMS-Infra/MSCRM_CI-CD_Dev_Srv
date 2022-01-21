@@ -19,7 +19,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             sudo chmod -R 755 /var/www/html/cicdtesting
-            sudo chown -R ubuntu:ubuntu /var/www/html/cicdtesting
+            sudo chown -R root:root /var/www/html/cicdtesting
             
       - uses: actions/checkout@v2
       - name: Deploy source-code
@@ -44,4 +44,4 @@ jobs:
           port: 22
           script: |
             sudo chmod -R 755 /var/www/html/cicdtesting
-            sudo chown -R www-data:www-data /var/www/html/cicdtesting
+            sudo chown -R apache:apache /var/www/html/cicdtesting
