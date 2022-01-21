@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>its4you_fieldmapping</name>
+			<sql><![CDATA[CREATE TABLE IF NOT EXISTS `its4you_fieldmapping` (
+`fieldmappingid` int(11) NOT NULL AUTO_INCREMENT,
+`name` varchar(255) NOT NULL,
+`info` varchar(255) NOT NULL DEFAULT '',
+`isactive` int(1) NOT NULL DEFAULT '1',
+`module_from` varchar(255) NOT NULL,
+`module_to` varchar(255) NOT NULL,
+`label` varchar(255) DEFAULT NULL,
+`action` varchar(255) DEFAULT NULL,
+`fieldmapping4you_attention` varchar(255) DEFAULT NULL,
+`special_action` varchar(255) DEFAULT NULL,
+PRIMARY KEY (`fieldmappingid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>its4you_fieldmapping_mapping</name>
+			<sql><![CDATA[CREATE TABLE IF NOT EXISTS `its4you_fieldmapping_mapping` (
+`fieldmapping_mappingid` int(11) NOT NULL AUTO_INCREMENT,
+`fieldmappingid` int(11) NOT NULL,
+`fieldid_sourcemodule` int(11) NOT NULL,
+`fieldid_targetmodule` int(11) NOT NULL,
+PRIMARY KEY (`fieldmapping_mappingid`),
+KEY `fieldmappingid` (`fieldmappingid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

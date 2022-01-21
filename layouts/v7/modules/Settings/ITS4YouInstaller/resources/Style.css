@@ -1,0 +1,61 @@
+/* * *******************************************************************************
+ * The content of this file is subject to the ITS4YouInstaller license.
+ * ("License"); You may not use this file except in compliance with the License
+ * The Initial Developer of the Original Code is IT-Solutions4You s.r.o.
+ * Portions created by IT-Solutions4You s.r.o. are Copyright(C) IT-Solutions4You s.r.o.
+ * All Rights Reserved.
+ * ****************************************************************************** */
+
+.blog-header {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.m0550 {
+    margin: 0 5px 5px 0;
+}
+.notUninstallReady {
+    background: #ffeeee;
+}
+.notLicenseReady {
+    background: #eeffee;
+}
+#installedModules table tbody td {
+    border-left:none;
+    border-right:none;
+}
+.grid-container-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.grid-container {
+    width: 100%;
+    columns: 4 200px;
+    column-gap: 15px;
+    margin: 0 auto;
+}
+.grid-container-div {
+    width: 100%;
+    display: inline-block;
+}
+.grid-container-block-3 {
+    display: block;
+}
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-flow: column;
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+}
+.grid-container-div-3 {
+    width: 100%;
+    display: inline-block;
+}
+
+

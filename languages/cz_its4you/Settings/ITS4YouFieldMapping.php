@@ -1,0 +1,80 @@
+<?php
+/* *********************************************************************************
+ * The content of this file is subject to the ITS4YouFieldMapping license.
+ * ("License"); You may not use this file except in compliance with the License
+ * The Initial Developer of the Original Code is IT-Solutions4You s.r.o.
+ * Portions created by IT-Solutions4You s.r.o. are Copyright(C) IT-Solutions4You s.r.o.
+ * All Rights Reserved.
+ * ******************************************************************************* */
+
+$languageStrings = array(
+	'ITS4YouFieldMapping' => 'ITS4YouFieldMapping', 
+	'SINGLE_ITS4YouFieldMapping' => 'ITS4YouFieldMapping', 
+	'LBL_MODULE_NAME' => 'ITS4YouFieldMapping', 
+	'LBL_UNINSTALL' => 'Uninstall', 
+	'LBL_UNINSTALL_DESC' => 'Remove Module completely from your vTiger.', 
+	'LBL_MODULE' => 'Module', 
+	'LBL_LICENSE_SETTINGS_INFO' => 'Manage your Module License Key', 
+	'LBL_LICENSE' => 'License settings', 
+	'LBL_LICENSE_DESC' => 'Manage all settings related to your license', 
+	'LBL_URL' => 'Your vtiger url', 
+	'LBL_LICENSE_ACTIVE' => 'Extension is active', 
+	'LBL_LICENSE_INACTIVE' => 'Extension is not active', 
+	'LBL_INSTALLER_NOT_ACTIVE' => 'Install or Activate ITS4YouInstaller module to manage your licenses.', 
+	'LBL_INSTALLER_UPDATE' => 'Update ITS4YouInstaller module for access to ITS4YouFieldMapping', 
+	'LBL_DOWNLOAD' => 'Download Installer', 
+	'COPYRIGHT' => ':: IT-Solutions4You', 
+	'LBL_CREATE_RECORD' => 'Create Relation', 
+	'Source Module' => 'Source Module', 
+	'Target Module' => 'Target Module', 
+	'Link Label' => 'Link Label', 
+	'Name' => 'Name', 
+	'Action' => 'Action', 
+	'Active' => 'Active', 
+	'Description' => 'Description', 
+	'LBL_CREATE_RELATION' => 'Create New Relation', 
+	'LBL_SAVE' => 'Save', 
+	'LBL_CANCEL' => 'Cancel', 
+	'LBL_REL_DETAIL' => 'Relation Details', 
+	'LBL_EDIT_RECORD' => 'Edit Your Record', 
+	'LBL_EDIT' => 'Edit', 
+	'LBL_EXISTING_MAPING' => 'Existing Mapping', 
+	'LBL_EDIT_MAPPING' => 'Edit Mapping', 
+	'LBL_CONVERT_MAPPING' => 'Convert Field Mapping', 
+	'LBL_FIELD_LABEL' => 'Field Label', 
+	'LBL_FIELD_TYPE' => 'Field Type', 
+	'LBL_MAPPING_WITH_OTHER_MODULES' => 'Mapping with other Modules', 
+	'LBL_ACTIONS' => 'Actions', 
+	'LBL_ADD_MAPPING' => 'Add Mapping', 
+	'LBL_ADD_LINK' => 'Add Link', 
+	'LBL_EXISTING_LINKS' => 'Existing Links', 
+	'LBL_NO_LINKS' => 'The system could not find any related link. Please, check manually whether at least one exists; if not, use "Add Link" button to create one.', 
+	'Edit Link' => 'Edit Link', 
+	'LBL_LOCATION' => 'Location', 
+	'LBL_LINK_LABEL' => 'Link Label', 
+	'LBL_LINK_URL' => 'Link URL', 
+	'Detail' => 'Detail', 
+	'List' => 'List', 
+	'LBL_LINK_ACTION_TYPE' => 'Action Type', 
+	'Standard' => 'Standard', 
+	'AddInto' => 'Add into', 
+	'LBL_DELETE_SUCCESS' => 'Field Mapping Deleted Successfully', 
+	'LBL_LINK_DELETED' => 'Link was deleted successfully', 
+	'LBL_DELETEMAPPING_SUCCESS' => 'Mapping Deleted Successfully', 
+	'LBL_CONVERT_LINK' => 'Convert Link', 
+	'LBL_MAPPED_LINK' => 'Link mapped', 
+	'LBL_MAPPED_TO' => 'Linked to: ', 
+);
+
+$jsLanguageStrings = array(
+	'JS_UNINSTALL_CONFIRM' => 'Are you sure to completely remove module from your vTiger?', 
+	'LBL_DEACTIVATE_QUESTION' => 'Do you really want to deactivate your license key?', 
+	'JS_MAPPING_DELETED_SUCCESSFULLY' => 'Mapping Deleted Successfully', 
+	'JS_DELETEMAPPING_QUESTION' => 'Do you want to delete mapping?', 
+	'JS_DELETELINK_QUESTION' => 'Do you want to delete link?', 
+	'JS_DELETELINK_DELETED' => 'Link was deleted successfully', 
+	'JS_DUPLICATE_FIELDS' => 'Duplicate use of field', 
+	'JS_DIFERENT_DATATYPES' => 'Used different data types', 
+	'JS_CONVERLINK_QUESTION' => 'Do you want to convert your link?', 
+); 
+

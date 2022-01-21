@@ -1,0 +1,80 @@
+<?php
+/* *********************************************************************************
+ * The content of this file is subject to the ITS4YouFieldMapping license.
+ * ("License"); You may not use this file except in compliance with the License
+ * The Initial Developer of the Original Code is IT-Solutions4You s.r.o.
+ * Portions created by IT-Solutions4You s.r.o. are Copyright(C) IT-Solutions4You s.r.o.
+ * All Rights Reserved.
+ * ******************************************************************************* */
+
+$languageStrings = array(
+	'LBL_MODULE_NAME' => 'Mapování polí', 
+	'LBL_CREATE_RECORD' => 'Vytvořte vztah', 
+	'Source Module' => 'Zdrojový modul', 
+	'Target Module' => 'Cílový modul', 
+	'Link Label' => 'Název odkazu', 
+	'Name' => 'Název', 
+	'Action' => 'Akce', 
+	'Active' => 'Aktivní', 
+	'Description' => 'Popis', 
+	'LBL_CREATE_RELATION' => 'Vytvořit nový vztah', 
+	'LBL_SAVE' => 'Uložit', 
+	'LBL_CANCEL' => 'Zrušit', 
+	'LBL_REL_DETAIL' => 'Podrobnosti o vztahu', 
+	'LBL_EDIT_RECORD' => 'Upravte svůj záznam', 
+	'LBL_EDIT' => 'Upravit', 
+	'LBL_EXISTING_MAPING' => 'Stávající mapování', 
+	'LBL_EDIT_MAPPING' => 'Upravit mapování', 
+	'LBL_CONVERT_MAPPING' => 'Převést mapování polí', 
+	'LBL_FIELD_LABEL' => 'Název pole', 
+	'LBL_FIELD_TYPE' => 'Typ pole', 
+	'LBL_MAPPING_WITH_OTHER_MODULES' => 'Mapování s jinými moduly', 
+	'LBL_ACTIONS' => 'Akce', 
+	'LBL_ADD_MAPPING' => 'Přidat mapování', 
+	'LBL_ADD_LINK' => 'Přidat odkaz', 
+	'LBL_EXISTING_LINKS' => 'Existující odkazy', 
+	'LBL_NO_LINKS' => 'Systém nemohl najít žádný související odkaz. Zkontrolujte prosím, zda existuje alespoň jedna; pokud ne, použijte tlačítko "Přidat odkaz" a vytvořte ho.', 
+	'Edit Link' => 'Upravit odkaz', 
+	'LBL_LOCATION' => 'Umístění', 
+	'LBL_LINK_LABEL' => 'Název odkazu', 
+	'LBL_LINK_URL' => 'Adresa URL odkazu', 
+	'Detail' => 'Detail', 
+	'List' => 'Seznam', 
+	'LBL_LINK_ACTION_TYPE' => 'Typ akce', 
+	'Standard' => 'Standard', 
+	'AddInto' => 'Přidat do', 
+	'LBL_DELETE_SUCCESS' => 'Mapování polí bylo úspěšně vymazáno', 
+	'LBL_LINK_DELETED' => 'Odkaz byl úspěšně smazán', 
+	'LBL_DELETEMAPPING_SUCCESS' => 'Mapování bylo úspěšně vymazáno', 
+	'LBL_CONVERT_LINK' => 'Převést odkaz', 
+	'LBL_MAPPED_LINK' => 'Namapováno propojení', 
+	'LBL_MAPPED_TO' => 'Spojené s: ', 
+	'ITS4YouFieldMapping' => 'ITS4YouFieldMapping', 
+	'SINGLE_ITS4YouFieldMapping' => 'ITS4YouFieldMapping', 
+	'LBL_UNINSTALL' => 'Uninstall', 
+	'LBL_UNINSTALL_DESC' => 'Remove Module completely from your vTiger.', 
+	'LBL_MODULE' => 'Module', 
+	'LBL_LICENSE_SETTINGS_INFO' => 'Manage your Module License Key', 
+	'LBL_LICENSE' => 'License settings', 
+	'LBL_LICENSE_DESC' => 'Manage all settings related to your license', 
+	'LBL_URL' => 'Your vtiger url', 
+	'LBL_LICENSE_ACTIVE' => 'Extension is active', 
+	'LBL_LICENSE_INACTIVE' => 'Extension is not active', 
+	'LBL_INSTALLER_NOT_ACTIVE' => 'Install or Activate ITS4YouInstaller module to manage your licenses.', 
+	'LBL_INSTALLER_UPDATE' => 'Update ITS4YouInstaller module for access to ITS4YouFieldMapping', 
+	'LBL_DOWNLOAD' => 'Download Installer', 
+	'COPYRIGHT' => ':: IT-Solutions4You', 
+);
+
+$jsLanguageStrings = array(
+	'JS_MAPPING_DELETED_SUCCESSFULLY' => 'Mapování bylo úspěšně vymazáno', 
+	'JS_DELETEMAPPING_QUESTION' => 'Chcete smazat mapování?', 
+	'JS_DELETELINK_QUESTION' => 'Chcete odstranit odkaz?', 
+	'JS_DELETELINK_DELETED' => 'Odkaz byl úspěšně smazán', 
+	'JS_DUPLICATE_FIELDS' => 'Duplicitní použití pole', 
+	'JS_DIFERENT_DATATYPES' => 'Různé typy dat nejsou povoleny', 
+	'JS_CONVERLINK_QUESTION' => 'Chcete previesť svoj odkaz?', 
+	'JS_UNINSTALL_CONFIRM' => 'Are you sure to completely remove module from your vTiger?', 
+	'LBL_DEACTIVATE_QUESTION' => 'Do you really want to deactivate your license key?', 
+); 
+

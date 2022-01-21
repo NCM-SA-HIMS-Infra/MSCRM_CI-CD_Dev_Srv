@@ -1,0 +1,80 @@
+<?php
+/* *********************************************************************************
+ * The content of this file is subject to the ITS4YouFieldMapping license.
+ * ("License"); You may not use this file except in compliance with the License
+ * The Initial Developer of the Original Code is IT-Solutions4You s.r.o.
+ * Portions created by IT-Solutions4You s.r.o. are Copyright(C) IT-Solutions4You s.r.o.
+ * All Rights Reserved.
+ * ******************************************************************************* */
+
+$languageStrings = array(
+	'LBL_MODULE_NAME' => 'Mapovanie polí', 
+	'LBL_CREATE_RECORD' => 'Vytvorte vzťah', 
+	'Source Module' => 'Zdrojový modul', 
+	'Target Module' => 'Cieľový modul', 
+	'Link Label' => 'Názov odkazu', 
+	'Name' => 'Názov', 
+	'Action' => 'Akcia', 
+	'Active' => 'Aktívny', 
+	'Description' => 'Popis', 
+	'LBL_CREATE_RELATION' => 'Vytvoriť nový vzťah', 
+	'LBL_SAVE' => 'Uložiť', 
+	'LBL_CANCEL' => 'Zrušiť', 
+	'LBL_REL_DETAIL' => 'Podrobnosti o vzťahu', 
+	'LBL_EDIT_RECORD' => 'Upravte svoj záznam', 
+	'LBL_EDIT' => 'Editovať', 
+	'LBL_EXISTING_MAPING' => 'Existujúce mapovanie', 
+	'LBL_EDIT_MAPPING' => 'Edit Mapping', 
+	'LBL_CONVERT_MAPPING' => 'Upraviť mapovanie', 
+	'LBL_FIELD_LABEL' => 'Popis poľa', 
+	'LBL_FIELD_TYPE' => 'Typ poľa', 
+	'LBL_MAPPING_WITH_OTHER_MODULES' => 'Mapovanie s inými modulmi', 
+	'LBL_ACTIONS' => 'Akcia', 
+	'LBL_ADD_MAPPING' => 'Pridať mapovanie', 
+	'LBL_ADD_LINK' => 'Pridať prepojenie', 
+	'LBL_EXISTING_LINKS' => 'Existujúce odkazy', 
+	'LBL_NO_LINKS' => 'Systém nemohol nájsť žiadny súvisiaci odkaz. Skontrolujte, či existuje aspoň jedna; ak nie, použite tlačidlo „Pridať odkaz“ a vytvorte ho.', 
+	'Edit Link' => 'Upraviť prepojenie', 
+	'LBL_LOCATION' => 'Umiestnenia', 
+	'LBL_LINK_LABEL' => 'Označiť odkaz', 
+	'LBL_LINK_URL' => 'Adresa URL odkazu', 
+	'Detail' => 'Detail', 
+	'List' => 'List', 
+	'LBL_LINK_ACTION_TYPE' => 'Typ akcie', 
+	'Standard' => 'Štandardné', 
+	'AddInto' => 'Pridať do', 
+	'LBL_DELETE_SUCCESS' => 'Mapovanie poľa bolo úspešne odstránené', 
+	'LBL_LINK_DELETED' => 'Odkaz bol úspešne odstránený', 
+	'LBL_DELETEMAPPING_SUCCESS' => 'Mapovanie bolo úspešne odstránené', 
+	'LBL_CONVERT_LINK' => 'Konvertovať prepojenie', 
+	'LBL_MAPPED_LINK' => 'Namapované prepojenie', 
+	'LBL_MAPPED_TO' => 'Spojené s: ', 
+	'ITS4YouFieldMapping' => 'ITS4YouFieldMapping', 
+	'SINGLE_ITS4YouFieldMapping' => 'ITS4YouFieldMapping', 
+	'LBL_UNINSTALL' => 'Uninstall', 
+	'LBL_UNINSTALL_DESC' => 'Remove Module completely from your vTiger.', 
+	'LBL_MODULE' => 'Module', 
+	'LBL_LICENSE_SETTINGS_INFO' => 'Manage your Module License Key', 
+	'LBL_LICENSE' => 'License settings', 
+	'LBL_LICENSE_DESC' => 'Manage all settings related to your license', 
+	'LBL_URL' => 'Your vtiger url', 
+	'LBL_LICENSE_ACTIVE' => 'Extension is active', 
+	'LBL_LICENSE_INACTIVE' => 'Extension is not active', 
+	'LBL_INSTALLER_NOT_ACTIVE' => 'Install or Activate ITS4YouInstaller module to manage your licenses.', 
+	'LBL_INSTALLER_UPDATE' => 'Update ITS4YouInstaller module for access to ITS4YouFieldMapping', 
+	'LBL_DOWNLOAD' => 'Download Installer', 
+	'COPYRIGHT' => ':: IT-Solutions4You', 
+);
+
+$jsLanguageStrings = array(
+	'JS_MAPPING_DELETED_SUCCESSFULLY' => 'Mapovanie bolo úspešne odstránené', 
+	'JS_DELETEMAPPING_QUESTION' => 'Chcete odstrániť mapovanie?', 
+	'JS_DELETELINK_QUESTION' => 'Chcete odstrániť prepojenie?', 
+	'JS_DELETELINK_DELETED' => 'Odkaz bol úspešne odstránený', 
+	'JS_DUPLICATE_FIELDS' => 'Duplicitné použitie poľa', 
+	'JS_DIFERENT_DATATYPES' => 'Použité rôzne typy údajov', 
+	'JS_CONVERLINK_QUESTION' => 'Chcete previesť svoj odkaz?', 
+	'JS_UNINSTALL_CONFIRM' => 'Are you sure to completely remove module from your vTiger?', 
+	'LBL_DEACTIVATE_QUESTION' => 'Do you really want to deactivate your license key?', 
+); 
+

@@ -1,0 +1,5 @@
+Vendor Name," ""Vendor Short Name"""," ""Vendor Code"""," ""Attention Name"""," ""Primary Phone"""," ""Primary Email"""," ""Contact Person"""," ""Position"""," ""Assigned To"""," ""Website"""," ""GL Account"""," ""Category"""," ""Last Modified By"""," ""Vendor No"""," ""Created Time"""," ""Vendor Number"""," ""Modified Time"""," ""Source"""," ""Transfer to WD"""," ""Street"""," ""PO Box"""," ""City"""," ""State"""," ""Postal Code"""," ""Country"""," ""Description"""," ""Lead Time (Order Period Day)"""," ""Incoterms"""," ""Payment Term"""
+AAA,A,A1,AAA,93543,,PHYO,Software Engineer,admin,,,,admin,VEN1,24-09-2020 17:48:23,VEN1,24-09-2020 17:48:54,CRM,1,,,Yangon,,,Test,,3,CIF |##| C&F,test
+Supplier,Supplier A,V003,Supplier A,96538765,,Supplier A,MD,admin,www.su,,Main supplier,admin,VEN3,25-09-2020 13:20:56,VEN2,25-09-2020 13:21:55,CRM,1,Thitssar street,12,Yangon,Yangon,16,Myanmar,,2,CIF,bank
+Supplier,Supplier A,V003,Supplier A,96538765,,Supplier A,MD,admin,www.su,,Main supplier,admin,VEN5,25-09-2020 13:29:59,VEN2,25-09-2020 13:29:59,CRM,1,Thitssar street,12,Yangon,Yangon,16,Myanmar,,2,CIF,bank
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
