@@ -79,12 +79,12 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://dev.baascrm/mscrmtesting_ncm/';
+$site_URL = 'http://dev.baascrm.com/mscrmtesting_ncm/';
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'customerportal';
 // root directory path
-$root_directory = '/var/www/html/mscrmtesting_ncm';
+$root_directory = '/var/www/html/mscrmtesting_ncm/';
 
 // cache direcory path
 $cache_dir = 'cache/';
